@@ -308,6 +308,10 @@ a:hover {
     z-index: 1;
 }
 
+#nav-toggle{
+    cursor: pointer;
+}
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
