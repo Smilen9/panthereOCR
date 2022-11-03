@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +25,6 @@ body {
     font-style: normal;
     opacity: .9;
 }
-
 
 a,
 button {
@@ -82,10 +85,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -308,6 +311,11 @@ a:hover {
     z-index: 1;
 }
 
+.container-header{
+    padding: 25px 35px;
+    align-items: center;
+}
+
 #nav-toggle{
     cursor: pointer;
 }
@@ -344,8 +352,12 @@ a:hover {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
+    margin: 6px;
     font-size: 16px;
+}
+
+.nav > li:hover{
+    border-bottom: 1px solid black;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -363,7 +375,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
