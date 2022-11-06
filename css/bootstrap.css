@@ -1435,7 +1435,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -1449,7 +1448,7 @@ img {
     max-width: 100%;
     height: auto;
     padding: 4px;
-    line-height: 1.42857143;
+    line-height: 1.42;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
