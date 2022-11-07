@@ -152,7 +152,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:white;
 }
 
 .d-bloc .a-btn:hover,
@@ -600,7 +600,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 
 #lightbox-modal .modal-dialog img {
@@ -683,7 +683,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -711,7 +711,8 @@ a {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
+    font-weight: 600;
 }
 
 .h1 {
@@ -721,7 +722,6 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -751,13 +751,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -791,6 +784,12 @@ h4 {
     text-decoration: underline!important;
 }
 
+.text-footer{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -805,8 +804,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F29D73;
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
