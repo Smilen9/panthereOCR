@@ -926,6 +926,9 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .logo{
+        width: 95%;
+    }
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
