@@ -152,6 +152,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
+    margin: 10px;
     color:white;
 }
 
@@ -547,7 +548,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -680,6 +680,7 @@ p,
 label,
 .btn,
 a {
+    text-align: center;
     font-family: "helvetica";
     font-weight: 400;
     color: black;
